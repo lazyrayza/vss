@@ -286,9 +286,18 @@ body {
   height: 100vh;
 }
 
+.vss-logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+#vssmain{
+  width: 30%;
+}
 .coming-soon{
   display: flex;
   justify-content: center;
+      margin-top: auto;
   p{
     font-family: 'Eurostile' sans-serif;
     font-size: 3rem;
@@ -297,10 +306,51 @@ body {
   }
 }
 
+.parent-logos{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 // Smallest device
 @media (max-width: 575px) and (min-width: 100px) {
   .main-container{
-    height: 110vh;
+    height: 130vh;
   }
+  #vssmain{
+    width: 65%;
+  }
+  .exhaust-flame{
+    height: 237px !important;
+  }
+
+  .exhaust-fumes{
+    transform: scale(0.7);
+  }
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767px) and (min-width: 576px) {
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 992px) and(min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 1200px) and (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .rocket{
+    top: 25%;
+  }
+
 }
