@@ -351,9 +351,16 @@ body {
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 1200px) and (min-width: 992px) {
+
+  .main-container{
+    height: 100vh;
+  }
   .vss-main{
     width: 30%;
     height: auto;
+  }
+  .coming-soon {
+    margin-top: 0;
   }
 }
 
