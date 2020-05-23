@@ -319,7 +319,7 @@ body {
   }
   .vssmain{
     width: 30%;
-    height: auto;
+    max-height: 100%;
   }
   .exhaust-flame{
     height: 237px !important;
@@ -336,7 +336,7 @@ body {
 @media (max-width: 767px) and (min-width: 576px) {
   .vss-main{
     width: 30%;
-    height: 40%;
+    max-height: 30%;
   }
 
 }
@@ -345,7 +345,7 @@ body {
 @media (max-width: 992px) and(min-width: 768px) {
   .vss-main{
     width: 30%;
-    height: auto;
+    max-height: 30%;
   }
 }
 
@@ -357,7 +357,7 @@ body {
   }
   .vss-main{
     width: 30%;
-    height: auto;
+
   }
   .coming-soon {
     margin-top: 0;
