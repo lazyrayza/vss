@@ -1,0 +1,5 @@
+meta_product_name: "Virtual Safe Safe"
+meta_title: "VSS - More than just a safe space"
+meta_description: "Find a specialist, start your talks and change your life - wherever you are."
+meta_image: "cover.png" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards

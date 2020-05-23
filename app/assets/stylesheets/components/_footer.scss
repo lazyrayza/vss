@@ -37,6 +37,8 @@
       display: grid;
       justify-content: space-between;
       .footer-right{
+        display: flex;
+        justify-content: center;
         ul{
           display: flex;
         }
