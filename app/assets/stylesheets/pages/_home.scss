@@ -291,9 +291,9 @@ body {
   justify-content: center;
   margin-bottom: 10%;
 }
-.vssmain{
-  width: 30%;
-}
+// .vssmain{
+//   width: 30%;
+// }
 .coming-soon{
   display: flex;
   justify-content: center;
@@ -318,7 +318,6 @@ body {
     height: 130vh;
   }
   .vssmain{
-    width: 30%;
     max-height: 100%;
   }
   .exhaust-flame{
@@ -335,7 +334,6 @@ body {
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) and (min-width: 576px) {
   .vss-main{
-    width: 30%;
     max-height: 100%;
   }
 
@@ -344,7 +342,6 @@ body {
 // Medium devices (tablets, 768px and up)
 @media (max-width: 992px) and(min-width: 768px) {
   .vss-main{
-    width: 30%;
     max-height: 30%;
   }
 }
@@ -356,8 +353,7 @@ body {
     height: 100vh;
   }
   .vss-main{
-    width: 30%;
-
+    max-height: 100%;
   }
   .coming-soon {
     margin-top: 0;
