@@ -315,17 +315,26 @@ body {
 // Smallest device
 @media (max-width: 575px) and (min-width: 100px) {
   .main-container{
-    height: 130vh;
+    height: 100vh;
   }
   .vssmain{
     max-height: 100%;
+  }
+
+  .rocket{
+    transform: scale(0.7);
+    margin-left: 5%;
   }
   .exhaust-flame{
     height: 237px !important;
   }
 
   .exhaust-fumes{
-    transform: scale(0.7);
+    transform: scale(0.5);
+  }
+
+  .coming-soon{
+    margin-top: 90%;
   }
 }
 
@@ -341,6 +350,9 @@ body {
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 992px) and(min-width: 768px) {
+  .main-container{
+    height: 90vh;
+  }
   .vss-main{
     max-height: 30%;
   }
@@ -350,13 +362,17 @@ body {
 @media (max-width: 1200px) and (min-width: 992px) {
 
   .main-container{
-    height: 100vh;
+    height: 90vh;
   }
   .vss-main{
     max-height: 100%;
   }
+
+  .rocket{
+    margin-left: 2%;
+  }
   .coming-soon {
-    margin-top: 0;
+    margin-top: 40%;
   }
 }
 
@@ -364,6 +380,7 @@ body {
 @media (min-width: 1200px) {
   .rocket{
     top: 25%;
+    margin-left: 1%;
   }
 
 }
